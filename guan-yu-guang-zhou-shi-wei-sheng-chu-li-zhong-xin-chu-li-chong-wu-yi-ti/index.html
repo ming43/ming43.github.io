@@ -1,92 +1,100 @@
-
 <!DOCTYPE html>
 <html>
   <head>
-    
-<meta charset="utf-8" >
+    <meta charset="utf-8" >
 
 <title>关于广州市卫生处理中心处理宠物遗体 | 夜</title>
-<meta name="description" content="">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://ming43.github.io/favicon.ico?v=1632655890864">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="shortcut icon" href="https://ming43.github.io/favicon.ico?v=1632656337509">
 <link rel="stylesheet" href="https://ming43.github.io/styles/main.css">
 
 
 
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
 
 
 
+    <meta name="description" content="陪伴了14，5年的狗最近离世了，一切来得实在太过突然，然后关于如何处理遗体，也做了一点功课，最后选择广州市卫生处理中心也只是一个很临时的想法，而且宠物殡葬行业提供超度仪式和其他仪式感服务在我看来颇“刻奇”，当然单体火化并提供骨灰确实是有一点..." />
+    <meta name="keywords" content="" />
   </head>
   <body>
     <div id="app" class="main">
-      <div class="site-header-container">
-  <div class="site-header">
-    <div class="left">
-      <a href="https://ming43.github.io">
-        <img class="avatar" src="https://ming43.github.io/images/avatar.png?v=1632655890864" alt="" width="32px" height="32px">
-      </a>
-      <a href="https://ming43.github.io">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://ming43.github.io">
+        <img src="https://ming43.github.io/images/avatar.png?v=1632656337509" class="site-logo">
         <h1 class="site-title">夜</h1>
       </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
     </div>
-    <div class="right">
-      <transition name="fade">
-        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
-      </transition>
-    </div>
-  </div>
-</div>
-
-<transition name="fade">
-  <div class="menu-container" style="display: none;" v-show="menuVisible">
-    <div class="menu-list">
+    <div>
       
         
-          <a href="/" class="menu purple-link">
+          <a href="/" class="site-nav">
             首页
           </a>
         
       
         
-          <a href="/archives" class="menu purple-link">
+          <a href="/archives" class="site-nav">
             归档
           </a>
         
       
         
-          <a href="/tags" class="menu purple-link">
+          <a href="/tags" class="site-nav">
             标签
           </a>
         
       
         
-          <a href="/post/about" class="menu purple-link">
+          <a href="/post/about" class="site-nav">
             关于
           </a>
         
       
     </div>
   </div>
-</transition>
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+    <div class="site-description">
+      
+    </div>
+    <div class="site-footer">
+      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://ming43.github.io/atom.xml" target="_blank">RSS</a>
+    </div>
+  </div>
+</div>
 
 
-      <div class="content-container">
-        <div class="post-detail">
-          
-          <h2 class="post-title">关于广州市卫生处理中心处理宠物遗体</h2>
-          <div class="post-info post-detail-info">
-            <span><i class="icon-calendar-outline"></i> 2021-09-26</span>
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <div class="post-detail">
+            <h2 class="post-title">关于广州市卫生处理中心处理宠物遗体</h2>
+            <div class="post-date">2021-09-26</div>
             
-          </div>
-          <div class="post-content">
-            <p>陪伴了14，5年的狗最近离世了，一切来得实在太过突然，然后关于如何处理遗体，也做了一点功课，最后选择广州市卫生处理中心也只是一个很临时的想法，而且宠物殡葬行业提供超度仪式和其他<s>仪式感</s>服务在我看来颇“刻奇”，当然单体火化并提供骨灰确实是有一点怀念的作用，回来后才发现这十几年似乎没有给狗留下任何影像，这几天在家有时还有种好像缺少了什么的感觉。</p>
+            <div class="post-content" v-pre>
+              <p>陪伴了14，5年的狗最近离世了，一切来得实在太过突然，然后关于如何处理遗体，也做了一点功课，最后选择广州市卫生处理中心也只是一个很临时的想法，而且宠物殡葬行业提供超度仪式和其他<s>仪式感</s>服务在我看来颇“刻奇”，当然单体火化并提供骨灰确实是有一点怀念的作用，回来后才发现这十几年似乎没有给狗留下任何影像，这几天在家有时还有种好像缺少了什么的感觉。</p>
 <p><strong>不建议将遗体扔到垃圾回收</strong></p>
 <p>如果在搜索引擎搜索广州市卫生处理中心，能查到的相关信息其实并不多，几乎就是新闻媒体的稿子，仅有的个人评价也仅存在于大众点评中，但大众点评的网页近乎不可用，所以才有自己写一下的意愿.</p>
 <figure data-type="image" tabindex="1"><img src="https://ming43.github.io/post-images/1632648611567.jpg" alt="" loading="lazy"></figure>
@@ -119,37 +127,22 @@
 <p>这篇文有没有帮助解决什么吗，似乎没有，只是相对地，广州市卫生处理中心是一个提供免费宠物遗体的地方，仅此，处理宠物遗体，丰俭由人。但<strong>不建议将遗体扔到垃圾回收</strong>，再次说下。<br>
 写完，甚至有时会想送去这里处理真的是更好的做法吗。</p>
 
+            </div>
+            
+            
+
+            
+
           </div>
+
         </div>
-
-        
       </div>
-
-      
-
-      <div class="site-footer">
-  <div class="slogan"></div>
-  <div class="social-container">
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-  </div>
-  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://ming43.github.io/atom.xml" target="_blank">RSS</a>
-</div>
-
-
     </div>
-    <script type="application/javascript">
 
-hljs.initHighlightingOnLoad()
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script type="application/javascript">
+
+AOS.init();
 
 var app = new Vue({
   el: '#app',
@@ -159,6 +152,8 @@ var app = new Vue({
 })
 
 </script>
+
+
 
 
 
